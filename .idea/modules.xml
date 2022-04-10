@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeTestStudy/CodeTestStudy.iml" filepath="$PROJECT_DIR$/CodeTestStudy/CodeTestStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaModlue/JavaModlue.iml" filepath="$PROJECT_DIR$/JavaModlue/JavaModlue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/intelijWorkSpace.iml" filepath="$PROJECT_DIR$/.idea/intelijWorkSpace.iml" />
+    </modules>
+  </component>
+</project>
