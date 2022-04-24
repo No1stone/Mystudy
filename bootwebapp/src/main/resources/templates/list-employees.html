@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Employees</title>
+    <link crossorigin="anonymous"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          rel="stylesheet">
+
+</head>
+<body>
+<div class = "container">
+    <h3>List Employees</h3>
+    <hr/>
+    <table class = "table table-bordered table--striped" id="employeeTable">
+
+        <thead>
+            <th>name</th>
+            <th>Email</th>
+            <th>Department</th>
+        </thead>
+        <tbody>
+            <tr th:each="employees: ${employees}">
+                <td th:text="${employees.name}"></td>
+                <td th:text="${employees.email}"></td>
+                <td th:text="${employees.department}"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>
+
+</body>
+</html>
