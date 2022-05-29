@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <th:block th:each="user: ${users}">
+        <div>
+            사용자 이름1<span th:text="${user.userName}"></span>
+            사용자 age1<span th:text="${user.age}"></span>
+        </div>comments
+        <div>
+            요약<span th:text="${user.userName} + ' / ' + ${user.age}"></span>
+        </div>
+  </th:block>
+
+
+</body>
+</html>
