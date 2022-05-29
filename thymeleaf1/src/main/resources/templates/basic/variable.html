@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>  Spring EL 표현식</h1>
+<ul> Object
+    <li>${user.userName} = <span th:text="${user.userName}"></span></li>
+    <li>${user['userName']} = <span th:text="${user['userName']}"></span></li>
+    <li>${user.getUserName()} = <span th:text="${user.getUserName()}"></span></li>
+</ul>
+<ul>List
+    <li>${users[0].userName} = <span th:text="${users[0].userName}"> </span> </li>
+    <li>${users[0].['userName']} = <span th:text="${users[0]['userName']}"> </span> </li>
+    <li>${users[0].getUserName()} = <span th:text="${users[0].getUserName()}"> </span> </li>
+</ul>
+<ul>Map
+    <li>${userMap['userA'].userName} = <span th:text="${userMap['userA'].userName}"> </span> </li>
+    <li>${userMap['userA'].['userName']} = <span th:text="${userMap['userA']['userName']}"> </span> </li>
+    <li>${userMap['userA'].getUserName()} = <span th:text="${userMap['userA'].getUserName()}"> </span> </li>
+</ul>
+
+</h1> 지역변수 - {th:with}</h1>
+<div th:with="first=${users[0]}">
+
+    <p>처음 사람의 이름 <span th:text ="${first.userName}"></span></p>
+    <p>처음 사람의 이름 <span th:text ="${first.getUserName()}"></span></p>
+</div>
+
+</body>
+</html>
