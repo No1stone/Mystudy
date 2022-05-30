@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CodeTestStudy/CodeTestStudy.iml" filepath="$PROJECT_DIR$/CodeTestStudy/CodeTestStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaModlue/JavaModlue.iml" filepath="$PROJECT_DIR$/JavaModlue/JavaModlue.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/intelijWorkSpace.iml" filepath="$PROJECT_DIR$/.idea/intelijWorkSpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymeleaf2/thymeleaf2.iml" filepath="$PROJECT_DIR$/thymeleaf2/thymeleaf2.iml" />
     </modules>
   </component>
 </project>
